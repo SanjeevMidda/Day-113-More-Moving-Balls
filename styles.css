@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    
+    width:150px;
+    height: 150px;
+    position: relative;
+    left: 300px;
+    display: inline-block;
+}
+
+.circle {
+    width:50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute; 
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* font-family: Helvetica, sans-serif; */
+    
+}
+
+@keyframes circle {
+    0% {background-color: green; left: 0px; top: 0px;}
+    25% {background-color:yellow; left: 100px; top: 0px;}
+    50% {background-color: brown; left: 100px; top:100px;}
+    75% {background-color: pink; left: 0px; top:100px;}
+    100% {background-color: blue; left: 0px; top:0px;}
+}
+
+/* .square {
+        width:200px;
+        height: 200px;
+        background-color: aquamarine;
+        border-radius: 50%;
+        position: relative; 
+        animation-name: square;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        font-family: Helvetica, sans-serif;
+        animation-direction: reverse;
+        
+    }
+
+    @keyframes square {
+        0% {background-color: green; left: 0px; top: 0px;}
+        25% {background-color:yellow; left: 500px; top: 0px;}
+        50% {background-color: brown; left: 500px; top:500px;}
+        75% {background-color: pink; left: 0px; top:500px;}
+        100% {background-color: blue; left: 0px; top:0px;}
+    } */
+
+    h3 {
+        margin-left: 305px;
+        margin-top: 50px;
+        font-size: 30px;
+    }
